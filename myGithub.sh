@@ -11,8 +11,8 @@ else
 fi
 
 dir=`pwd`
-$dir=`basename ${DIR}`
+$dir=`basename ${dir}`
 
-git remote add origin https://github.com/seisyo58/"$dir".git
+git remote add origin https://github.com/seisyo58/${dir}.git
 
 git push origin master
