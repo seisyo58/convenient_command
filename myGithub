@@ -7,7 +7,7 @@ read str
 	git commit -m $str
 
 dir=`pwd`
-$dir=`basename ${dir}`
+dir=`basename ${dir}`
 
 git remote add origin https://github.com/seisyo58/${dir}.git
 
