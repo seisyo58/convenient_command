@@ -1,0 +1,14 @@
+#! /bin/bash
+
+git add .
+
+echo -n "input comment ->"
+read str
+	git commit -m $str
+
+dir=`pwd`
+$dir=`basename ${dir}`
+
+git remote add origin https://github.com/seisyo58/${dir}.git
+
+git push origin master
